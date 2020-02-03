@@ -1,38 +1,60 @@
 .App {
-  text-align: center;
+  background-color:#28818d;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+label {
+  display: block;
   color: white;
+  margin-bottom: 10px;
+}
+.todo {
+  background-color: #a9cbcf;
+  max-width: 500px; 
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 2px;
+  line-height: 1.9em;
+  overflow: hidden;
+  padding-left: 20px ;
+  color: white;
+  box-sizing: border-box;
+}
+.todo p {
+  display: inline-block;
+}
+.todo button {
+
+  float: right;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 2px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.wrapper {
+  background-color: #00bcd4;
+  padding: 50px;
+  margin: 50px;
+  width: 40%;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.wrapper input {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 6px;
+  height: 30px;
+  padding-left: 20px ;
+  box-sizing: border-box;
+}
+.wrapper button button {
+
+  float: right;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 2px;
+
 }
